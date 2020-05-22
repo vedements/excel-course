@@ -21,7 +21,7 @@ function createRow(content, index = '') {
    </div>`
 }
 
-function toChar(_, index) {
+function toChar(_, index) { // Function
   return String.fromCharCode(CODES.A + index)
 }
 
